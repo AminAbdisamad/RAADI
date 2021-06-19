@@ -6,10 +6,10 @@ TIP: This is a tip
 
 [source,python]
 ----
-
+cities = ['mogadishu','burco']
 ----
 
 [source,rust]
 ----
- 
+
 ----

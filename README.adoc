@@ -1,0 +1,15 @@
+== RAADI Project Documentation 
+
+NOTE: this is a note 
+TIP: This is a tip
+
+
+[source,python]
+----
+
+----
+
+[source,rust]
+----
+ 
+----

@@ -1,15 +1,25 @@
-== RAADI Project Documentation 
+== RAADI 
+A single place to find every business in the country
 
-NOTE: this is a note 
-TIP: This is a tip
+== How to Install
+NOTE: You should have latest python version installed
+TIP: We're using `pipenv` to manage python virtual env, so make sure you have installed it too.
+
+- clone the reposity  
+- `cd` into the directory
+- run `pipenv install` to create a virtual env and install project dependencies
+
+== Project directory setup
+
+|===
+|Name |Description
+
+|cilib
+|The backend API (FastAPI)
+
+|caano
+|Frontend app (Nextjs)
+
+|===
 
 
-[source,python]
-----
-cities = ['mogadishu','burco']
-----
-
-[source,rust]
-----
-
-----

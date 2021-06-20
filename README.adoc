@@ -14,7 +14,7 @@ TIP: We're using `pipenv` to manage python virtual env, so make sure you have in
 |===
 |Name |Description
 
-|cilib
+|hilib
 |The backend API (FastAPI)
 
 |caano

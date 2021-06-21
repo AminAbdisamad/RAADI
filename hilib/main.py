@@ -2,10 +2,12 @@ from fastapi import FastAPI
 import uvicorn
 from config import APP_NAME, DESCRIPTION, VERSION
 from users.view import users
+from Institutions.view import institutions
 
 
 app = FastAPI(title=APP_NAME, description=DESCRIPTION, version=VERSION)
 app.include_router(users)
+app.include_router(institutions)
 
 
 @app.get("/")

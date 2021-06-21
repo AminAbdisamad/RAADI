@@ -1,4 +1,4 @@
-== RAADI 
+= RAADI 
 A single place to find every business in the country
 
 == How to Install

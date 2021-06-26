@@ -1,4 +1,4 @@
-== RAADI 
+= RAADI 
 A single place to find every business in the country
 
 == How to Install
@@ -9,10 +9,10 @@ TIP: We're using `pipenv` to manage python virtual env, so make sure you have in
 - `cd` into the directory
 - run `pipenv install` to create a virtual env and install project dependencies
 
-== Project directory setup
+== Project Structure
 
 |===
-|Name |Description
+|Codebase |Description
 
 |hilib
 |The backend API (FastAPI)

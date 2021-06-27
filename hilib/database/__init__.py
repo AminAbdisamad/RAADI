@@ -12,3 +12,5 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base = declarative_base()
 
 #  Create Models
+# alembic revision -m "First commit"
+# alembic upgrade head

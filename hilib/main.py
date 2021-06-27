@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 from config import APP_NAME, DESCRIPTION, VERSION
 from users.view import users
-from Institutions.view import institutions
+from institutions.view import institutions
 
 
 app = FastAPI(title=APP_NAME, description=DESCRIPTION, version=VERSION)

@@ -6,6 +6,7 @@ from database import Base, engine
 from uuid import uuid4, UUID
 
 
+# generate UUID
 def generate_uuid():
         return str(uuid4())
 

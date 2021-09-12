@@ -8,6 +8,7 @@ from database.core import DateTimeMixin, RaadiBase
 from users.model import User
 # from Institutions.model import Institution
 
+# fixing review add issue
 class Review(Base):
     __tablename__ = "reviews"
     id = Column(Integer, primary_key=True, index=True)

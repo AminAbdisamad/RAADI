@@ -1,6 +1,6 @@
 from sqlalchemy.orm import Session
 from typing import Optional
-from institutions.model import (
+from Institutions.model import (
     Institution,
     InstitutionRead,
     InstitutionRegister,

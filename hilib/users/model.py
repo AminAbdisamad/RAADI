@@ -1,8 +1,13 @@
 from datetime import datetime
 from typing import Optional
 from pydantic import BaseModel
+
 from sqlalchemy import Column, String, Integer, Boolean, Text, DateTime
+from sqlalchemy.orm import relationship
+
 from database import Base, engine
+from database.core import DateTimeMixin, RaadiBase
+
 
 
 # ** User Model
@@ -22,13 +27,16 @@ class User(Base):
     avatar = Column(String, default="avatar.png")
     created_at = Column(DateTime, default=datetime.now)
     updated_at = Column(DateTime, default=datetime.now)
+    
+    # user_reviews = relationship('Review', back_populates="review_owner")
+    institutions = relationship('Institution', back_populates="institution_owner")
 
 
 # Create Users Table
 Base.metadata.create_all(bind=engine)
 
 # ** Pydantic Models
-class UserBase(BaseModel):
+class UserBase(RaadiBase):
     class Config:
         orm_mode = True
 

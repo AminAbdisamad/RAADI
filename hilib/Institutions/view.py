@@ -5,7 +5,7 @@ from institutions.model import Institution, InstitutionRegister, InstitutionRead
 from institutions.service import create_institution, get_all_institutions
 from database.core import get_db
 
-institutions = APIRouter(prefix="/api/V1/institutions")
+institutions = APIRouter(prefix="/api/v1/institutions")
 
 
 @institutions.post("/")

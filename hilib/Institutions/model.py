@@ -43,9 +43,9 @@ class InstitutionsBase(RaadiBase):
     logo: str
     email: str
     country: str
-    city: str
-    district: str
-    address: str
+    # city: str
+    # district: str
+    # address: str
     category: str
     website_url: Optional[str] = None
 

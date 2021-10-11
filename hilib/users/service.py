@@ -31,3 +31,8 @@ def create_user(*, db: Session, user: UserRegister) -> Optional[User]:
     db.commit()
     db.refresh(user)
     return user
+
+
+
+
+# pk, starts-1-5, review, review_count ,institution_id, user_id,create_at, updated_at,

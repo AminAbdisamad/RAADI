@@ -1,3 +1,8 @@
 __pycache__
 .env
 alembic.ini
+<<<<<<< HEAD
+=======
+my-project
+script.py
+>>>>>>> 957842aa4c4e6d6b285bab614c7154bb00ee3109
